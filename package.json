@@ -1,0 +1,48 @@
+{
+  "name": "babel-plugin-transform-optimize-object-literal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "prettier": "prettier --write \"./**/!(output).{js,json,md}\"",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keyz/babel-plugin-transform-optimize-object-literal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keyz/babel-plugin-transform-optimize-object-literal/issues"
+  },
+  "homepage": "https://github.com/keyz/babel-plugin-transform-optimize-object-literal#readme",
+  "dependencies": {
+    "@babel/generator": "^7.7.2",
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "@babel/traverse": "^7.7.2",
+    "@babel/types": "^7.7.2"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/helper-plugin-test-runner": "^7.1.0",
+    "@babel/parser": "^7.7.3",
+    "@babel/preset-react": "^7.7.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "testcheck": "^1.0.0-rc.2"
+  },
+  "jest": {
+    "testRegex": "./__tests__/.+test\\.js$",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/test/fixtures/"
+    ],
+    "testEnvironment": "node",
+    "verbose": true
+  }
+}
