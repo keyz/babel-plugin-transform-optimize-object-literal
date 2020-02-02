@@ -1,5 +1,7 @@
 # babel-plugin-transform-optimize-object-literal
 
+[![Node.js CI](https://github.com/keyz/babel-plugin-transform-optimize-object-literal/workflows/Node.js%20CI/badge.svg)](https://github.com/keyz/babel-plugin-transform-optimize-object-literal/actions "CI Status") [![npm version](http://img.shields.io/npm/v/.svg?style=flat)](https://npmjs.org/package/babel-plugin-transform-optimize-object-literal "View on npm")
+
 Because I heard `JSON.parse` is blazing fast https://v8.dev/blog/cost-of-javascript-2019#json
 
 Input:

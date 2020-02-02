@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-transform-optimize-object-literal",
   "version": "1.0.0",
-  "description": "",
+  "description": "Rewrites object and array literals with JSON.parse calls.",
   "main": "src/index.js",
   "scripts": {
     "prettier": "prettier --write \"./**/!(output).{js,json,md}\"",
@@ -11,7 +11,15 @@
     "type": "git",
     "url": "git+https://github.com/keyz/babel-plugin-transform-optimize-object-literal.git"
   },
-  "keywords": [],
+  "keywords": [
+    "babel",
+    "optimize",
+    "react",
+    "json",
+    "JSON.parse",
+    "performance",
+    "speed"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
