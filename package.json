@@ -19,20 +19,20 @@
   },
   "homepage": "https://github.com/keyz/babel-plugin-transform-optimize-object-literal#readme",
   "dependencies": {
-    "@babel/generator": "^7.7.2",
-    "@babel/helper-plugin-utils": "^7.0.0",
-    "@babel/traverse": "^7.7.2",
-    "@babel/types": "^7.7.2"
+    "@babel/generator": "^7.8.4",
+    "@babel/helper-plugin-utils": "^7.8.3",
+    "@babel/traverse": "^7.8.4",
+    "@babel/types": "^7.8.3"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0-0"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/helper-plugin-test-runner": "^7.1.0",
-    "@babel/parser": "^7.7.3",
-    "@babel/preset-react": "^7.7.0",
-    "jest": "^24.9.0",
+    "@babel/core": "^7.8.4",
+    "@babel/helper-plugin-test-runner": "^7.8.3",
+    "@babel/parser": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "jest": "^25.1.0",
     "prettier": "^1.19.1",
     "testcheck": "^1.0.0-rc.2"
   },
